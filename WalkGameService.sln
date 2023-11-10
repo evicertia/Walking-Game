@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalkGameService", "WalkGameService\WalkGameService.csproj", "{7427C1A4-4EAD-4BC5-A239-A769ED705796}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WalkGameService.Domain", "WalkGameService.Domain\WalkGameService.Domain.csproj", "{41C97FB3-B97B-4368-9BD4-50D6703EF286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkGameService.Infrastructure", "WalkGameService.Infrastructure\WalkGameService.Infrastructure.csproj", "{2B6036F8-0268-4D15-9F9E-3D75F81619E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkGameService.Application", "WalkGameService.Application\WalkGameService.Application.csproj", "{F4B31671-FD39-4F15-AFAD-2CA0D9744114}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2D7EEA00-70E5-4C11-8C68-C7A90FF88322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalkGameSercive.Domaint.UnitTests", "WalkGameSercive.Domaint.UnitTests\WalkGameSercive.Domaint.UnitTests.csproj", "{AC120D6E-374F-4405-BD8D-4351C889F2CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7427C1A4-4EAD-4BC5-A239-A769ED705796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7427C1A4-4EAD-4BC5-A239-A769ED705796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7427C1A4-4EAD-4BC5-A239-A769ED705796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7427C1A4-4EAD-4BC5-A239-A769ED705796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C97FB3-B97B-4368-9BD4-50D6703EF286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C97FB3-B97B-4368-9BD4-50D6703EF286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C97FB3-B97B-4368-9BD4-50D6703EF286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C97FB3-B97B-4368-9BD4-50D6703EF286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6036F8-0268-4D15-9F9E-3D75F81619E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6036F8-0268-4D15-9F9E-3D75F81619E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6036F8-0268-4D15-9F9E-3D75F81619E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6036F8-0268-4D15-9F9E-3D75F81619E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B31671-FD39-4F15-AFAD-2CA0D9744114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B31671-FD39-4F15-AFAD-2CA0D9744114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B31671-FD39-4F15-AFAD-2CA0D9744114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B31671-FD39-4F15-AFAD-2CA0D9744114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC120D6E-374F-4405-BD8D-4351C889F2CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC120D6E-374F-4405-BD8D-4351C889F2CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC120D6E-374F-4405-BD8D-4351C889F2CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC120D6E-374F-4405-BD8D-4351C889F2CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC120D6E-374F-4405-BD8D-4351C889F2CB} = {2D7EEA00-70E5-4C11-8C68-C7A90FF88322}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {087946DF-798D-4432-944E-3EF08CDB9906}
+	EndGlobalSection
+EndGlobal
